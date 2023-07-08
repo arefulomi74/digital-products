@@ -76,3 +76,44 @@
 .btn-about{
     margin-top: 10px;
 }
+.box1{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: white;
+
+}
+.icon{
+    width: 70px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-descriptoin{
+    padding: 5px;
+}
+.box-btn{
+    background-color: grey;
+    margin-top: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(8,8,8),rgb(53,53,53));
+    height:350px ;
+}
+.footer-section{
+    display: flex;
+    background-color: rgb(9, 9, 9);
+    height: 350px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+ .under{
+    list-style-type: none;
+ }
